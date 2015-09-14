@@ -180,6 +180,7 @@ a:hover{
 	background-image: url("imgs/chuck_big.jpg");
 	width: 150px;
 	height: 200px;
+	float: left;
 	margin-bottom: 5px;
 }
 
@@ -191,6 +192,7 @@ a:hover{
 
 .treasureImg{
 	background-image: url("imgs/tla_big.jpg");
+	float: left;
 	width: 150px;
 	height: 200px;
 	margin-bottom: 5px;
@@ -206,6 +208,7 @@ a:hover{
 	background-image: url("imgs/gifford.jpg");
 	width: 150px;
 	height: 200px;
+	float: left;
 	margin-bottom: 5px;
 }
 
