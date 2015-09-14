@@ -19,45 +19,16 @@ a:visited{
 a:hover{
 	color: #FFFFFF !important;
 }
-.toggleButton{
-	width: 100px;
-	height: 50px;
-	font-size: 12px;
-	bottom: 0;
-	position: absolute;
-	margin: 0px 0px 19px 19px;
-	z-index: 2;
-}
-
-.toggleVariantButton{
-	width: 100px;
-	height: 50px;
-	font-size: 12px;
-	bottom: 0;
-	position: absolute;
-	margin: 0px 0px 19px 138px;
-	z-index: 2;
-}
-
-.homeButton{
-	width: 100px;
-	height: 50px;
-	font-size: 12px;
-	bottom: 0;
-	position: absolute;
-	margin: 0px 0px 19px 257px;
-	z-index: 2;
-}
 
 .comparison:before{
 	background-image: url("imgs/Comparison.jpg");
 	width: 738px;
-	height: 800px;
+	height: 670px;
 	position: absolute;
 	color: red;
 	content: "*Comparison Image*";
 	opacity: 0.4;
-	z-index: 1;
+	z-index: 0;
 }
 
 .headImage{
@@ -285,4 +256,43 @@ a:hover{
 
 .footerWeirdSpacing{
 	padding-top: 6px;
+}
+
+.buttons{
+	margin-top: 25px;
+	height: 50px;
+	float: clear;
+	margin-bottom: 5px;
+}
+
+.toggleButton{
+	width: 100px;
+	height: 50px;
+	font-size: 12px;
+	float: left;
+	margin: 0px 0px 0px 19px;
+	z-index: 100;
+}
+
+.toggleVariantButton{
+	width: 100px;
+	height: 50px;
+	font-size: 12px;
+	margin: 0px 0px 0px 19px;
+	float: left;
+	z-index: 100;
+}
+
+.homeButton{
+	width: 100px;
+	height: 50px;
+	font-size: 12px;
+	float: left;
+	margin: 0px 0px 0px 19px;
+	z-index: 100;
+}
+
+.disclaimer{
+	width: 360px;
+	padding-left:19px;
 }
