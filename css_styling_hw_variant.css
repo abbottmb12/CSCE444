@@ -55,6 +55,7 @@ a:hover{
 	height: 800px;
 	position: absolute;
 	color: red;
+	opacity: .4;
 	content: "*Comparison Image*";
 	z-index: 1;
 }
@@ -179,6 +180,7 @@ a:hover{
 	background-image: url("imgs/chuck_big.jpg");
 	width: 150px;
 	height: 200px;
+	float: left;
 	margin-bottom: 5px;
 }
 
@@ -192,6 +194,7 @@ a:hover{
 	background-image: url("imgs/tla_big.jpg");
 	width: 150px;
 	height: 200px;
+	float: left;
 	margin-bottom: 5px;
 }
 
@@ -205,6 +208,7 @@ a:hover{
 	background-image: url("imgs/j_style.jpg");
 	width: 150px;
 	height: 200px;
+	float: left;
 	margin-bottom: 5px;
 }
 
