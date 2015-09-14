@@ -1,0 +1,284 @@
+﻿body{
+	background-color: #809A80;
+	color: rgb(255, 255, 204);
+	margin: 0px;
+}
+
+a{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a:link{
+	color: #FFFFFF !important;
+}
+
+a:visited{
+	color: #FFFFFF !important;
+}
+
+a:hover{
+	color: #FFFFFF !important;
+}
+.toggleButton{
+	width: 100px;
+	height: 50px;
+	font-size: 12px;
+	bottom: 0;
+	position: absolute;
+	margin: 0px 0px 19px 19px;
+	z-index: 2;
+}
+
+.toggleVariantButton{
+	width: 100px;
+	height: 50px;
+	font-size: 12px;
+	bottom: 0;
+	position: absolute;
+	margin: 0px 0px 19px 138px;
+	z-index: 2;
+}
+
+.homeButton{
+	width: 100px;
+	height: 50px;
+	font-size: 12px;
+	bottom: 0;
+	position: absolute;
+	margin: 0px 0px 19px 257px;
+	z-index: 2;
+}
+
+.comparison:before{
+	background-image: url("imgs/Comparison.jpg");
+	width: 738px;
+	height: 800px;
+	position: absolute;
+	color: red;
+	content: "*Comparison Image*";
+	z-index: 1;
+}
+
+.headImage{
+	width: 738px;
+	height: 74px;
+	background-image: url("imgs/ho_green_mast1.gif");
+	float: left;
+}
+
+.mainBody{
+	width: 800px;
+	height: 491px;
+	display: block;
+	font-family: arial, sans-serif;
+	margin-bottom: 15px;
+}
+
+.headings{
+	background-color: rgb(103,134,114);
+	height: 14px;
+	margin-bottom: 4px;
+	color: #FFFFFF;	
+	font-size: 12px;
+	letter-spacing: .15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+}
+
+.headingsIndent{
+	padding-left: 17px;
+}
+
+.siteTableOfContents{
+	display: block;
+	float: left;
+	width: 141px;
+	height: 491px;
+	margin-left: 19px;
+}
+
+.contentsTitle{
+	padding-left: 5px;
+}
+
+.contentsLinks{
+	display: block;
+	height: 456px;
+	background-color: #6E816E;
+	color: #FFFFFF;
+	letter-spacing: .25px;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 13px 0px 4px 5px;
+}
+
+.sideLink{
+	display: block;
+	font-size: 14px;
+	padding: 0px 0px 3px 2px;
+	text-decoration: none;
+}
+
+.tabbedSideLink{
+	display: block;
+	font-size: 12px;
+	padding: 0px 0px 4px 11px;
+	text-decoration: none;
+}
+
+.searchText{
+	padding: 6px 0px 6px 2px
+}
+
+.circle{
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    background: rgb(54, 51, 104);
+    color: #FFFFFF;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 9.5px;
+    float: right;
+	text-decoration: none;
+    margin: 24px 25px 0px 0px;
+}
+
+.inputForm{
+	width: 85px;
+	height: 15px;
+	padding-left: -3px;
+}
+
+.siteAttractions{
+	display: block;
+	float: left;
+	width: 567px;
+	height: 491px;
+	margin-left: 4px;
+}
+
+.exhibitionsContent{
+	height: 281px;
+	font-size: 10px;
+	background-color: #6E816E;
+	margin-bottom: 4px;
+}
+
+.captionStyle{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.exhibContentOne{
+	width: 150px;
+	float: left;
+	margin: 8px 0px 5px 29px;
+}
+
+.chuckImg{
+	background-image: url("imgs/chuck_big.jpg");
+	width: 150px;
+	height: 200px;
+	margin-bottom: 5px;
+}
+
+.exhibContentTwo{
+	width: 150px;
+	float: left;
+	margin: 8px 0px 5px 30px;
+}
+
+.treasureImg{
+	background-image: url("imgs/tla_big.jpg");
+	width: 150px;
+	height: 200px;
+	margin-bottom: 5px;
+}
+
+.exhibContentThree{
+	width: 150px;
+	float: left;
+	margin: 8px 0px 5px 30px;
+}
+
+.hudsonImg{
+	background-image: url("imgs/gifford.jpg");
+	width: 150px;
+	height: 200px;
+	margin-bottom: 5px;
+}
+
+.moreExhibitions{
+	float: right;
+	margin-right: 28px;
+}
+
+.highlightsContent{
+	background-color: #6E816E;
+	height: 166px;
+	padding: 4px 0px 0px 16px; 
+}
+
+.highlightsColumns{
+	float: left;
+	width: 181px;
+	height: 170px;
+}
+
+.highlightsRows{
+	height: 90px;
+}
+
+.highlightsImgs{
+	float: left;
+	width: 55px;
+	height: 60px;
+}
+
+.highlightsText{
+	float: left;
+	font-size: 13px;
+	margin-left: 8px;
+	width: 99px;
+	height: 75px;
+}
+
+.highlightsText.highlightsTextWider{
+	width: 110px;
+}
+.nowImg{
+	background-image: url("imgs/ho_green_nam_jan04.gif");
+}
+
+.kidsImg{
+	background-image: url("imgs/ho_green_mkids.gif");
+}
+
+.storeImg{
+	background-image: url("imgs/ho_green_bag.gif");
+}
+
+.collectionImg{
+	background-image: url("imgs/ho_green_co_aps.gif");
+}
+
+.membershipImg{
+	background-image: url("imgs/ho_green_button.gif");
+}
+
+.museumImg{
+	background-image: url("imgs/ho_green_mmm_william.gif");
+}
+
+.mainFooter{
+	clear: both;
+	display: block;
+	font-size: 10px;
+	padding: 15px 0px 0px 192px;
+	white-space: nowrap;
+	font-family: arial, sans-serif;
+}
+
+.footerWeirdSpacing{
+	padding-top: 6px;
+}
