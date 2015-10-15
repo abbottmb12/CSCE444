@@ -1,0 +1,13 @@
+﻿body{
+	background-color: #000000;
+	margin: 0px;
+}
+
+.mainBody{
+	width: 1680px;
+	height: 1032px;
+	display: block;
+    background-image: url("yin_yang_floor_by_manfox.jpg");
+	font-family: arial, sans-serif;
+	margin-bottom: 15px;
+}
