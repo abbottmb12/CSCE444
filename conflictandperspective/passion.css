@@ -1,0 +1,42 @@
+﻿body{
+	background-color: #000000;
+	margin: 0px; 
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.mainTitle{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.mainBody{
+	display: block;
+	margin-bottom: 15px;
+    height: 700px;
+    background-image: url("palms.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.object{
+	width: 700px;
+	height: 525px;
+    background-image: url("rose.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 200px;
+    left: 325px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.drop{
+    font-size: 30px
+}

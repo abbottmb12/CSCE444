@@ -1,6 +1,7 @@
 ﻿body{
 	background-color: #000000;
-	margin: 0px;
+	margin: 0px; 
+    text-align: center;
 }
 
 .mainBody{
@@ -9,5 +10,62 @@
 	display: block;
     background-image: url("yin_yang_floor_by_manfox.jpg");
 	font-family: arial, sans-serif;
+    background-position: center;
 	margin-bottom: 15px;
+}
+
+.conflict{
+	width: 300px;
+	height: 300px;
+    background-image: url("knife_07.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 600px;
+    top: 700px;
+}
+
+.nature{
+	width: 150px;
+	height: 300px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 1100px;
+    top: 400px;
+}
+
+.juxtaposition{
+	width: 300px;
+	height: 300px;
+    background-image: url("framed pic flat.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 150px;
+    top: 650px;
+    transform: perspective(200px) rotateX(13deg);
+}
+
+.passion{
+	width: 200px;
+	height: 200px;
+    background-image: url("rose.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 150px;
+    top: 350px;
+}
+
+.inner{
+	width: 200px;
+	height: 200px;
+    background-image: url("fingertrap.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 1150px;
+    top: 700px;
 }
