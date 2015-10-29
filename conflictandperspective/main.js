@@ -62,8 +62,6 @@ $(document).ready(function() {
     $(allIDs).addClass(function(){
         var showt = $(this).attr('id');
         var showc = readCookie($(this).attr('id'));
-        alert("For " + showt + " why does:" + showc + " != 1?");
-        
         if(readCookie($(this).attr('id')) != "1"){
             return "setBW";
         }
@@ -73,21 +71,22 @@ $(document).ready(function() {
 
     $(allPickUps).click(function(){
         var parentID = $(event.target).attr('id').replace("PickUp","");
-        alert(parentID);
         createCookie(parentID,1,1);
         window.location.href = parentID + '.html';
     });
     
-    $(allIDs).click(function(e) {
-        e.stopPropagation();                         
-    });
+   /* $(allIDs).click(function(e) {
+        e.stopPropagation();         
+    });*/
     $(document).click(function() {
-        fadeAll();
+        if (!$(event.target).closest(allIDs).length) {
+            fadeAll();
+        }
     });
     
     $( allIDs ).click(function(selectedID) {
         var id = $(event.target).attr('id');
-        fadeAllBut(id);
+        //fadeAllBut(id);
         $("#" + id + "Panel, #" + id + "PickUp").fadeIn();
     });
 });
