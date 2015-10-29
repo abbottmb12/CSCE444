@@ -60,9 +60,9 @@ function eraseCookie(name) {
 $(document).ready(function() {
     $(allPanels).hide();
     $(allIDs).addClass(function(){
-        alert("Why does: " + (readCookie($(event.target).attr('id'))) + " != 1?");
+        alert("For " + $(event.target).attr('id')) + " why does:"+ (readCookie($(event.target).attr('id'))) + " != 1?");
         
-        if(readCookie($(event.target).attr('id'))==1){
+        if(readCookie($(event.target).attr('id')) == 1){
             return "setBW";
         }
         else
