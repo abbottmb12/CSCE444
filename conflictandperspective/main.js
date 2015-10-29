@@ -83,7 +83,6 @@ $(document).ready(function() {
             fadeAll();
         }
     });
-    
     $( allIDs ).click(function(selectedID) {
         var id = $(event.target).attr('id');
         //fadeAllBut(id);
