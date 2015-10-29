@@ -85,7 +85,7 @@ $(document).ready(function() {
     });
     $( allIDs ).click(function(selectedID) {
         var id = $(event.target).attr('id');
-        //fadeAllBut(id);
+        fadeAllBut(id);
         $("#" + id + "Panel, #" + id + "PickUp").fadeIn();
     });
 });
