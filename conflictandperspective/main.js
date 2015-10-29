@@ -64,7 +64,7 @@ $(document).ready(function() {
         var showc = readCookie($(event.target).attr('id'));
         alert("For " + showt + " why does:" + showc + " != 1?");
         
-        if(readCookie($(event.target).attr('id')) == 1){
+        if(readCookie("juxtaposition")) == 1){
             return "setBW";
         }
         else
