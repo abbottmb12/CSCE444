@@ -61,8 +61,8 @@ $(document).ready(function() {
     $(allPanels).hide();
     checkCookie();
     $(allIDs).addClass(function(){
-        console.log($(this).attr('id'));
-        console.log(readCookie($(event.target).attr('id')));
+        alert("Why does: " + (readCookie($(event.target).attr('id'))) + " != 1?");
+        
         if(readCookie($(event.target).attr('id'))==1){
             return "setBW";
         }
