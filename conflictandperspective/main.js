@@ -60,11 +60,11 @@ function eraseCookie(name) {
 $(document).ready(function() {
     $(allPanels).hide();
     $(allIDs).addClass(function(){
-        var showt = $(event.target).attr('id');
-        var showc = readCookie($(event.target).attr('id'));
+        var showt = $(this).attr('id');
+        var showc = readCookie($(this).attr('id'));
         alert("For " + showt + " why does:" + showc + " != 1?");
         
-        if(readCookie("juxtaposition")) == 1){
+        if(readCookie($(this).attr('id')) == 1){
             return "setBW";
         }
         else
