@@ -59,7 +59,6 @@ function eraseCookie(name) {
 
 $(document).ready(function() {
     $(allPanels).hide();
-    checkCookie();
     $(allIDs).addClass(function(){
         alert("Why does: " + (readCookie($(event.target).attr('id'))) + " != 1?");
         
@@ -74,7 +73,6 @@ $(document).ready(function() {
         var parentID = $(event.target).attr('id').replace("PickUp","");
         console.log(parentID);
         createCookie(parentID,1,1);
-        alert('pause');
     });
     
     $(allIDs).click(function(e) {
