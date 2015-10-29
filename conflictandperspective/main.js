@@ -95,7 +95,7 @@ $(document).ready(function() {
     $(allIDs).addClass(function(){
         console.log($(this).attr('id'));
         console.log(readCookie($(event.target).attr('id')));
-        if(readCookie($(this).attr('id'))==1){
+        if(readCookie($(event.target).attr('id'))==1){
             return "setBW";
         }
         else
