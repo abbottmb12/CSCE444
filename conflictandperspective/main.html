@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <head>
 <link rel="stylesheet" href="main.css" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="jaukia/jquery.zoomooz.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
 <meta charset="utf-8" />
 <title>Conflict and Perspective</title>
 </head>
  
 <body>
-	<div class="mainBody"></div>
-    <a href="conflict.html" class="conflict"></a>
-    <a href="passion.html" class="nature"></a>
-    <a href="juxtaposition.html" class="juxtaposition"></a>
-    <a href="passion.html" class="passion"></a>
-    <a href="inner.html" class="inner"></a>
+	<div class="mainBody">
+        <div id="conflict" class="object"></div>
+        <div id="nature" class="object"></div>
+        
+        <div id="juxtaposition">
+            <table id="juxtapositionPanel" class="tg">
+              <tr>
+                <th class="lookAtImageBW" rowspan="2"></th>
+                <th class="lookAtTitle" colspan="2">Juxtaposition</th>
+              </tr>
+              <tr>
+                <td class="tableTextFormat">Juxtaposition is a way to look at completely different perspectives or concepts at the same time, often in a visual way. In terms of conflict and perspective, it is hard to realize that other people will be affected by the choices that we make, or that they even would make a different choice in certain situations than we would.</td>
+                <td class="tableTextFormat lookAtImage"></td>
+              </tr>
+            </table>
+            <a href="juxtaposition.html" id="juxtapositionPickUp" class="tableTextFormat pickUp">
+                <div class="pickUpText">Pick Up</div>
+            </a>
+        </div>
+        
+        <div id="passion" class="object">
+            <table id="passionPanel" class="tg">
+                  <tr>
+                    <th class="lookAtImageBW" rowspan="2"></th>
+                    <th class="lookAtTitle" colspan="2">Juxtaposition</th>
+                  </tr>
+                  <tr>
+                    <td class="tableTextFormat">Juxtaposition is a way to look at completely different perspectives or concepts at the same time, often in a visual way. In terms of conflict and perspective, it is hard to realize that other people will be affected by the choices that we make, or that they even would make a different choice in certain situations than we would.</td>
+                    <td class="tableTextFormat lookAtImage"></td>
+                  </tr>
+                </table>
+                <a href="passion.html" id="passionPickUp" class="tableTextFormat pickUp">
+                    <div class="pickUpText">Pick Up</div>
+                </a>
+        </div>
+            
+        <div id="inner" class="object"></div>
+
+    </div>
 </body>
 
 </html>
