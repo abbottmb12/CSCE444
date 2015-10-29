@@ -102,7 +102,7 @@ $(document).ready(function() {
            return "colored";
     });
 
-    $(allPickUps).click(function(){
+    $(allPickUps).mousedown(function(){
         var parentID = $(event.target).attr('id').replace("PickUp","");
         console.log(parentID);
         createCookie("lol",1,1);
