@@ -14,7 +14,7 @@ $(function() {
 });
 
 var allPanels = "#passionPanel, #passionPickUp, #juxtapositionPanel, #juxtapositionPickUp";
-var allPickUps = "passionPickUp, #juxtapositionPickUp"
+var allPickUps = "#passionPickUp, #juxtapositionPickUp";
 var allIDs = "#passion, #juxtaposition, #inner, #conflict";
 
 function fadeAll(){
@@ -64,7 +64,7 @@ $(document).ready(function() {
         var showc = readCookie($(this).attr('id'));
         alert("For " + showt + " why does:" + showc + " != 1?");
         
-        if(readCookie($(this).attr('id')) != 1){
+        if(readCookie($(this).attr('id')) != "1"){
             return "setBW";
         }
         else
@@ -75,6 +75,7 @@ $(document).ready(function() {
         var parentID = $(event.target).attr('id').replace("PickUp","");
         alert(parentID);
         createCookie(parentID,1,1);
+        window.location.href = parentID + '.html';
     });
     
     $(allIDs).click(function(e) {
