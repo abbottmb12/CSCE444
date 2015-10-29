@@ -1,5 +1,7 @@
 ﻿body{
-	background-color: #000000;
+	//background-color: #545454;
+    //background-color: rgb(31,31,39);
+    background-image: url("background.png");
 	margin: 0px; 
     text-align: center;
     color: white;
@@ -43,13 +45,16 @@ th, td {
 }
 
 .mainBody{
-	width: 1680px;
-	height: 1032px;
-	display: block;
+	width: 1440px;
+	height: 900px;
+	display: inline-block;
     background-image: url("yin_yang_floor_by_manfox.gif");
+    background-repeat: no-repeat;
 	font-family: arial, sans-serif;
     background-position: center;
+    background-size: contain;
 	margin-bottom: 15px;
+    position: relative;
 }
 
 .object{
@@ -135,8 +140,8 @@ th, td {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    left: 741.844px;
-    top: 668.861px;
+    left: 726.844px;
+    top: 586.859px;
 }
 
 #conflictPanel .lookAtObject{
@@ -154,8 +159,8 @@ th, td {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    left: 236.885px;
-    top: 536.875px;
+    left: 278.875px;
+    top: 499.875px;
 }
 
 #juxtapositionPanel {
@@ -205,8 +210,8 @@ th, td {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    left: 598.979px;
-    top: 346.99px;
+    left: 511.969px;
+    top: 302.984px;
 }
 
 #passionPanel {
@@ -245,6 +250,6 @@ th, td {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    left: 1318.97px;
-    top: 686.948px;
+    left: 1158.97px;
+    top: 633.938px;
 }
