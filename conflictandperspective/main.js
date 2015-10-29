@@ -64,7 +64,7 @@ $(document).ready(function() {
         var showc = readCookie($(this).attr('id'));
         alert("For " + showt + " why does:" + showc + " != 1?");
         
-        if(readCookie($(this).attr('id')) == 1){
+        if(readCookie($(this).attr('id')) != 1){
             return "setBW";
         }
         else
@@ -73,7 +73,7 @@ $(document).ready(function() {
 
     $(allPickUps).click(function(){
         var parentID = $(event.target).attr('id').replace("PickUp","");
-        console.log(parentID);
+        alert(parentID);
         createCookie(parentID,1,1);
     });
     
