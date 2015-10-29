@@ -105,8 +105,7 @@ $(document).ready(function() {
     $(allPickUps).mousedown(function(){
         var parentID = $(event.target).attr('id').replace("PickUp","");
         console.log(parentID);
-        createCookie("lol",1,1);
-        console.log(readCookie("lol"));
+        createCookie(parentID,1,1);
         alert('pause');
     });
     
