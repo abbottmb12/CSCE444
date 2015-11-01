@@ -15,7 +15,7 @@ $(function() {
 
 var allPanels = "#passionPanel, #passionPickUp, #juxtapositionPanel, #juxtapositionPickUp";
 var allPickUps = "#passionPickUp, #juxtapositionPickUp";
-var allIDs = "#passion, #juxtaposition, #inner, #conflict";
+var allIDs = "#passion, #juxtaposition, #inner, #conflict, #nature";
 
 function fadeAll(){
      $(allPanels).fadeOut();

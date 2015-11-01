@@ -1,71 +1,83 @@
 <!DOCTYPE html>
 <head>
 <link rel="stylesheet" href="juxtaposition.css" type="text/css" />
-<link rel="stylesheet" href="font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="css/font-awesome.min.css">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width">
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="jquery.slides.min.js"></script>
+<script src="js/jquery.slides.min.js"></script>
 <script src="juxtaposition.js"></script>
 <title>Conflict and Perspective</title>
 </head>
  
 <body>
+    <div class="hand">
+        <div class="object"></div>
+    </div>
     <div class="main">
-        <div class="mainTitle">Juxtaposition</div>
         <div class="mainBody">
-            <div class="object"></div>
-            <div class="module">
-                <div class="moduleTopLeft moduleLayout">
-                    <div id="slides">
-                      <img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
-                      <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
-                      <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
-                      <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
-                      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
-                      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+				<div class="mainTitle">Juxtaposition</div>
+                <div class="module">
+                    <div class="pictures">
+                        <div class="moduleTopLeft moduleLayout">
+                            <div id="slides">
+                              <img src="img/bully1.jpg">
+                              <img src="img/bully2.jpg">
+                              <img src="img/bully3.jpg">
+                              <img src="img/bully4.jpg">
+                              <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+                              <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+                            </div>
+                        </div>
+                        <div class="moduleTopRight moduleLayout">
+                            <div id="slides2">
+                                  <img src="img/success1.jpg">
+                                  <img src="img/success2.jpg">
+                                  <img src="img/success3.jpg">
+                                  <img src="img/success4.jpg">                                  
+                                  <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+                                  <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+                            </div>
+                        </div>
+                        <div class="moduleBottomLeft moduleLayout">
+                            <div id="slides3">
+                                  <img src="img/trauma1.jpg">
+                                  <img src="img/trauma2.jpg">
+                                  <img src="img/trauma3.jpg">
+                                  <img src="img/trauma4.jpg"> 
+                              <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+                              <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+                            </div>
+                        </div>
+                        <div class="moduleBottomRight moduleLayout">
+                            <div id="slides4">
+                              <img src="img/fun1.jpg">
+                              <img src="img/fun2.jpg">
+                              <img src="img/fun3.jpg">
+                              <img src="img/fun4.jpg">  
+                              <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+                              <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="moduleTopRight moduleLayout">
-                <div id="slides2">
-                      <img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
-                      <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
-                      <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
-                      <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
-                      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
-                      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
-                    </div>
-                </div>
-                <div class="moduleBottomLeft moduleLayout">
-                <div id="slides3">
-                      <img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
-                      <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
-                      <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
-                      <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
-                      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
-                      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
-                    </div>
-                </div>
-                <div class="moduleBottomRight moduleLayout">
-                <div id="slides4">
-                      <img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
-                      <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
-                      <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
-                      <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
-                      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
-                      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+                    <div class="moduleText">
+                    In Mike Figgis's Timecode, the movie shows four different camera angles at the same time.
+                    Each camera follows each different main character to show their different perspectives.
+                    This juxtaposition of perspectives is what I show here. Specifically how life events,
+                    whether positive or negative will have an effect on how people develop. We should be aware
+                    that not everyone grew up in the same way that we did.
+                    <p class="bottomLink">
+                        <a href="http://www.get.gg/perspectives.htm"> Information about the psychology of experiences 
+                        and how it impacts personality </a>
+                    </p>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <a href="main.html" class="drop">
-           <div class="dropText"> Drop </div>
-        </a>
+			<a href="main.html" class="drop">
+				<div class="dropText"> Drop </div>
+			</a>
+         </div>
     </div>
-      <div class="container">
-
-  </div>
 </body>
 
 </html>
