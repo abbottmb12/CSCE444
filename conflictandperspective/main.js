@@ -69,11 +69,11 @@ $(document).ready(function() {
            return "colored";
     });
 
-    $(allPickUps).click(function(){
+    /*$(allPickUps).click(function(){
         var parentID = $(event.target).attr('id').replace("PickUp","");
         createCookie(parentID,1,1);
         window.location.href = parentID + '.html';
-    });
+    });*/
     
    /* $(allIDs).click(function(e) {
         e.stopPropagation();         

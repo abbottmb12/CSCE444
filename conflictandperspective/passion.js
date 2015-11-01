@@ -27,3 +27,7 @@ function readCookie(name) {
 function eraseCookie(name) {
     createCookie(name, "", -1);
 }
+
+$(document).ready(function() {
+    createCookie("passion",1,.014666);
+});
