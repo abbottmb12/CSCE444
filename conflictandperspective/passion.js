@@ -29,5 +29,5 @@ function eraseCookie(name) {
 }
 
 $(document).ready(function() {
-    createCookie("passion",1,.014666);
+    createCookie("passion",1,1);
 });

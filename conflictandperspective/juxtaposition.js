@@ -1,6 +1,6 @@
  
 $(document).ready(function() {
-    createCookie("passion",1,.014666);
+    createCookie("passion",1,1);
 	$(function() {
 		$('#slides').slidesjs({
 			width: 400,
