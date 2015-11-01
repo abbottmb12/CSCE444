@@ -4,6 +4,7 @@
 	margin: 0px; 
     text-align: center;
     color: white;
+	font-family: 'Merriweather', serif;
 }
 a { 
     color: inherit; 
@@ -43,22 +44,32 @@ th, td {
     animation-name: bounce; 
 }
 
+.mainTitle{
+	font-size: 40px;
+	margin: 10px 0px 10px 0px;
+}
+
 .mainBody{
 	width: 1440px;
-	height: 900px;
+height: 879px;
 	display: inline-block;
     background-image: url("img/mainbg.jpg");
     background-repeat: no-repeat;
-	font-family: arial, sans-serif;
     background-position: center;
     background-size: contain;
 	margin-bottom: 15px;
     position: relative;
     box-shadow: 0px 0px 10px 5px rgba(31,31,39,0.5);
+	font-size: 40px;
 }
 
 .object{
     z-index: 2;
+}
+
+.object:hover{
+	cursor: grab;
+	cursor:-webkit-grab;
 }
 
 .tg  {
@@ -68,8 +79,12 @@ th, td {
     z-index: 1;
 }
 
+.tg:hover{
+	cursor:default;
+	cursor:-webkit-default;
+}
+
 .tg td{
-    font-family:Arial, sans-serif;
     font-size:11px;
     padding:10px 5px;
     border-style:solid;
@@ -78,7 +93,6 @@ th, td {
     word-break:normal;
 }
 .tg th{
-    font-family:Arial, sans-serif;
     font-size:14px;
     font-weight:normal;
     padding:10px 5px;
@@ -145,16 +159,40 @@ th, td {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-	left: 675.844px;
-    top: 581.844px;
+    left: 634.844px;
+    top: 573.844px;
 }
 
-#conflictPanel .lookAtObject{
-	width: 100px;
-	height: 52px;
-    background-image: url("knife_07.png");
-    background-repeat: no-repeat;
+#conflictPanel {
+    width: 619px;
+    height: 70px;
+    position: absolute;
+top: -223px;
+    left: -241px;
+}
+
+#conflictPanel .lookAtTitle{
+	padding-top: 17px;
+}
+
+#conflictPanel .lookAtImage{
+    background-image: url("img/conflictpanel.jpg");
+    width: 268px;
+    height: 100px;
     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#conflictPanel .lookAtText{
+	font-size: 12px;
+}
+
+#conflictPanel .lookAtImageBW{
+    background-image: url("img/conflict.jpg");
+    width: 93px;
+height: 68px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #juxtaposition{
@@ -164,8 +202,8 @@ th, td {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-	left: 208.875px;
-    top: 518.875px;
+left: 156.875px;
+    top: 387.476px;
 }
 
 #juxtapositionPanel {
@@ -178,7 +216,7 @@ th, td {
 
 #juxtapositionPanel .lookAtImage{
     background-image: url("bottle.jpg");
-    width: 268px;
+    width: 260px;
     height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -199,12 +237,44 @@ th, td {
 #nature{
 	width: 100px;
 	height: 100px;
-    background-image: url("apple.png");
+    background-image: url("img/apple.png");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-left: 927px;
-    top: 389.516px;
+    left: 944px;
+    top: 296.516px;
+}
+
+#naturePanel {
+    width: 619px;
+    height: 70px;
+    position: absolute;
+    top: -220px;
+    left: -241px;
+}
+
+#naturePanel .lookAtTitle{
+	padding-top: 17px;
+}
+
+#naturePanel .lookAtImage{
+    background-image: url("img/naturecolors.jpg");
+width: 227px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#naturePanel .lookAtText{
+	font-size: 13px;
+}
+
+#naturePanel .lookAtImageBW{
+    background-image: url("img/tree.jpg");
+width: 69px;
+    height: 63px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #passion{
@@ -214,12 +284,13 @@ left: 927px;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    left: 474.969px;
-    top: 291.969px;
+    left: 526.969px;
+    top: 204.891px;
 }
 
+
 #passionPanel {
-    width: 619px;
+width: 639px;
     height: 70px;
     position: absolute;
     top: -202px;
@@ -232,14 +303,14 @@ left: 927px;
 
 #passionPanel .lookAtImage{
     background-image: url("img/passionate.jpg");
-    width: 268px;
-    height: 100px;
+width: 307px;
+    height: 69px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #passionPanel .lookAtText{
-	font-size: 13px;
+	font-size: 12px;
 }
 
 #passionPanel .lookAtImageBW{
@@ -257,6 +328,39 @@ left: 927px;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-	left: 1100.97px;
-    top: 590.938px;
+    left: 1063.97px;
+    top: 552.938px;
+}
+
+#innerPanel {
+    width: 661px;
+    height: 70px;
+    position: absolute;
+    top: -220px;
+    left: -290px;
+}
+
+#innerPanel .lookAtTitle{
+	padding-top: 17px;
+}
+
+#innerPanel .lookAtImage{
+    background-image: url("img/innerpanel.jpg");
+width: 265px;
+    height: 100px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#innerPanel .lookAtText{
+	font-size: 12px;
+}
+
+#innerPanel .lookAtImageBW{
+    background-image: url("img/innerbw.jpg");
+    width: 115px;
+    height: 58px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

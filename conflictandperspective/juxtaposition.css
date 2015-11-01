@@ -3,6 +3,7 @@
 	margin: 0px; 
     text-align: center;
     color: white;
+	font-family: 'Merriweather', serif;
 }
 
 .main a{
@@ -226,7 +227,7 @@
     font-size: 20px;
 	position: absolute;
     top: 56px;
-    right: 4px;
+    right: 2px;
 }
 
 .drop:hover{

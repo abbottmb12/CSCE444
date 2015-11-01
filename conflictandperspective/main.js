@@ -4,17 +4,21 @@ $(function() {
             fadeAll();
             $(this).removeClass( "bounce" );
             $(this).addClass( "mover" );
+			$(this).css( 'cursor', 'grabbing' );
+			$(this).css( 'cursor', '-webkit-grabbing' );
         },
         stop: function() {
             fadeAll();
             $(this).removeClass( "mover" );
             $(this).addClass( "bounce" );
+			$(this).css( 'cursor', 'grab' );
+			$(this).css( 'cursor', '-webkit-grab' );
         }
     });
 });
 
-var allPanels = "#passionPanel, #passionPickUp, #juxtapositionPanel, #juxtapositionPickUp";
-var allPickUps = "#passionPickUp, #juxtapositionPickUp";
+var allPanels = "#passionPanel, #passionPickUp, #juxtapositionPanel, #juxtapositionPickUp, #naturePanel, #naturePickUp, #conflictPanel, #conflictPickUp, #innerPanel, #innerPickUp";
+var allPickUps = "#passionPickUp, #juxtapositionPickUp, #naturePickUp, #conflictPickUp, #innerPickUp";
 var allIDs = "#passion, #juxtaposition, #inner, #conflict, #nature";
 
 function fadeAll(){

@@ -3,7 +3,7 @@
 	margin: 0px; 
     text-align: center;
     color: white;
-		font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', serif;
 }
 
 .main a{
@@ -24,9 +24,9 @@
 }
 
 .object{
-	width: 633px;
-	height: 550px;
-    background-image: url("rose.png");
+    width: 300px;
+    height: 373px;
+    background-image: url("img/apple.png");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -76,14 +76,14 @@
 }
 
 .moduleLayout{
-    width: 380px;
-    height: 225px;
+    width: 236px;
+    height: 235px;
     position: relative;
     float: left;
 }
 
 .module{
-    width: 812px;
+    width: 574px;
     height: 526px;
     position: relative;
     margin: 0 auto;
@@ -92,19 +92,28 @@
 
 .pictures{
 	position:relative;
-	width:812;
-	height: 526px;
+	width:574;
+	height: 567px;
 }
 
 .picture{
-	width:380px;
-	height:225px;
+	width:236px;
+	height:235px;
 }
 
 .moduleTopLeft{
     padding: 13px 13px 13px 13px;
-	height:225px;
-	width:380px;
+	height:235px;
+	width:236px;
+	background: rgba(0, 0, 0, 0.8);
+		 margin-left: 25px;
+
+}
+
+.moduleTopLeft .picture{
+	background-image: url("img/dark.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .moduleTopRight{
@@ -113,22 +122,27 @@
 }
 
 .moduleTopRight .picture{
-	background-image: url("img/ribbons.png");
+	background-image: url("img/light.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.moduleBottomLeft{
-    padding: 13px 13px 13px 13px;
+.moduleBottom{
+	float:left;
+    height: 322px;
+padding: 10px 10px 0px 10px;
+    font-size: 13px;
 	background: rgba(20, 20, 20, 0.8);
-	height:225px;
-	width:380px;
 }
 
-.moduleBottomLeft .picture{
-	background-image: url("img/road.png");
+.moduleBottom .elements{
+	background-image: url("img/elements.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+	background-position: center;
+	margin-top: 15px;
+	width: 100%;
+	height: 200px;
 }
 
 .moduleBottomRight{
@@ -142,7 +156,11 @@
 
 .moduleText{
 	text-align: center;
-	margin-top: 18px;
+margin-top: 26px;
+font-size:13px;
+    height: 84px;
+    padding: 5px 10px 0px 10px;
+	background: rgba(20, 20, 20, 0.8);
 }
 
 .bottomLink{
