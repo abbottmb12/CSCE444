@@ -13,7 +13,7 @@ function createCookie(name, value, days) {
 }
 
 $(document).ready(function() {
-    createCookie("passion",1,1);
+    createCookie("juxtaposition",1,1);
 	$(function() {
 		$('#slides').slidesjs({
 			width: 400,
