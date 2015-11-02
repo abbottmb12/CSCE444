@@ -183,7 +183,7 @@ z-index: 99999999999 !important;
 
 #conflictPanel .lookAtImage{
     background-image: url("img/conflictpanel.jpg");
-    width: 258px;
+    width: 268px;
     height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -223,7 +223,7 @@ left: 155.875px;
 
 #juxtapositionPanel .lookAtImage{
     background-image: url("bottle.jpg");
-    width: 253px;
+    width: 260px;
     height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -353,7 +353,7 @@ width: 307px;
 
 #innerPanel .lookAtImage{
     background-image: url("img/innerpanel.jpg");
-width: 259px;
+width: 265px;
     height: 100px;
 
     background-size: contain;
