@@ -67,6 +67,11 @@ height: 879px;
     z-index: 2;
 }
 
+.pickupTop{
+	position:relative;
+	z-index:10;
+}
+
 .object:hover{
 	cursor: grab;
 	cursor:-webkit-grab;
@@ -159,8 +164,8 @@ height: 879px;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    left: 634.844px;
-    top: 573.844px;
+	left: 683.844px;
+    top: 609.844px;
 }
 
 #conflictPanel {
@@ -169,6 +174,7 @@ height: 879px;
     position: absolute;
 top: -223px;
     left: -241px;
+z-index: 99999999999 !important;
 }
 
 #conflictPanel .lookAtTitle{
@@ -202,8 +208,8 @@ height: 68px;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-left: 156.875px;
-    top: 387.476px;
+left: 155.875px;
+    top: 412.469px;
 }
 
 #juxtapositionPanel {
@@ -212,6 +218,7 @@ left: 156.875px;
     position: absolute;
     top: -237px;
     left: -155px;
+		z-index:10;
 }
 
 #juxtapositionPanel .lookAtImage{
@@ -241,8 +248,8 @@ left: 156.875px;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    left: 944px;
-    top: 296.516px;
+left: 1012px;
+    top: 286.496px;
 }
 
 #naturePanel {
@@ -284,8 +291,8 @@ width: 69px;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    left: 526.969px;
-    top: 204.891px;
+    left: 635.969px;
+    top: 214.891px;
 }
 
 

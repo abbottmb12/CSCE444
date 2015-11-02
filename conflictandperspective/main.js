@@ -90,6 +90,8 @@ $(document).ready(function() {
     $( allIDs ).click(function(selectedID) {
         var id = $(event.target).attr('id');
         fadeAllBut(id);
+		$(allIDs).css('z-index', '2');
+		$(this).css('z-index', '50');
         $("#" + id + "Panel, #" + id + "PickUp").fadeIn();
     });
 });
